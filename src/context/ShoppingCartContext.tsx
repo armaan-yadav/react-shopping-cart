@@ -15,7 +15,7 @@ type CartItem = {
   id: number;
   quantity: number;
 };
-type ShoppingCart = {
+interface ShoppingCart  {
   getItemById: (id: number) => Item;
   getItemQuantity: (id: number) => number;
   increaseItemQuantity: (id: number) => void;
