@@ -14,8 +14,8 @@ function App() {
         <Navbar />
         <Container>
           <Routes>
-            <Route index element={<Home />} />
-            <Route path="/store" element={<Store />} />
+            <Route path="/" element={<Home />} />
+            <Route index path="/store" element={<Store />} />
             <Route path="/about" element={<About />} />
           </Routes>
         </Container>
